@@ -1,0 +1,18 @@
+{
+  "name": "claude-code-mods",
+  "description": "Claude Code mods from Ryan Raffel. Read a mod before you install it: mods run with your permissions.",
+  "owner": {
+    "name": "Ryan Raffel",
+    "url": "https://github.com/ryanraffel-nextroll"
+  },
+  "plugins": [
+    {
+      "name": "mcp-gaps",
+      "source": "./plugins/mcp-gaps",
+      "description": "Logs MCP tool calls and flags likely MCP gaps (browser fallbacks, tool errors, answers that say the MCP can't do something). Read-only.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["mcp", "observability", "dogfooding"]
+    }
+  ]
+}

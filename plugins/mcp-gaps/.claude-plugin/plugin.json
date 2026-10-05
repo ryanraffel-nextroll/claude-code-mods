@@ -1,0 +1,11 @@
+{
+  "name": "mcp-gaps",
+  "version": "0.1.0",
+  "description": "Logs every MCP tool call and flags likely MCP gaps: browser fallbacks, tool errors, and answers that say the MCP can't do something. /mcp-gaps opens a pane; /mcp-gaps report exports a paste-ready list.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Ryan Raffel",
+    "url": "https://github.com/ryanraffel-nextroll"
+  },
+  "homepage": "https://github.com/ryanraffel-nextroll/claude-code-mods"
+}
