@@ -13,3 +13,5 @@ What it reaches: nothing outside Claude Code. It calls no `$.fs`, `$.process` or
 Try it for one session (Claude Code 2.1.287 or later):
 
     claude --plugin-dir /path/to/mcp-gaps
+
+Editing it: `tsconfig.json` extends `.claude-plugin/types/tsconfig.json`, which Claude Code writes beside the mod the first time it loads it (or run `/plugin-types` in a session). That folder is generated for your build and is not committed.
